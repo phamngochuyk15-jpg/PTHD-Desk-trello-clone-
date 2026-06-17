@@ -1,0 +1,126 @@
+{
+  "columns": [
+    {
+      "color": "bg-slate-100 border-slate-200 text-slate-800",
+      "id": "todo",
+      "title": "Cần làm"
+    },
+    {
+      "color": "bg-indigo-50/70 border-indigo-100 text-indigo-900",
+      "id": "in_progress",
+      "title": "Đang làm"
+    },
+    {
+      "color": "bg-amber-50/70 border-amber-100 text-amber-900",
+      "id": "review",
+      "title": "Xem xét & Đánh giá"
+    },
+    {
+      "color": "bg-emerald-50/70 border-emerald-100 text-emerald-900",
+      "id": "done",
+      "title": "Hoàn thành"
+    }
+  ],
+  "id": "default-project",
+  "tasks": [
+    {
+      "category": "Design",
+      "columnId": "todo",
+      "createdAt": "2026-06-17T04:53:55.463Z",
+      "description": "Phác thảo sơ đồ màn hình Desktop và Mobile cho trang landing page của sản phẩm.",
+      "id": "task-1",
+      "priority": "high",
+      "subtasks": [
+        {
+          "completed": true,
+          "id": "sub-1-1",
+          "text": "Vẽ nháp trên giấy"
+        },
+        {
+          "completed": false,
+          "id": "sub-1-2",
+          "text": "Thiết kế Figma component"
+        },
+        {
+          "completed": false,
+          "id": "sub-1-3",
+          "text": "Xin ý kiến góp ý của team"
+        }
+      ],
+      "title": "Thiết kế wireframe & UI/UX trang chủ"
+    },
+    {
+      "category": "Backend",
+      "columnId": "in_progress",
+      "createdAt": "2026-06-17T04:53:55.464Z",
+      "description": "Thiết lập database PostgreSQL và định nghĩa các API routes cơ bản cho ứng dụng quản lý.",
+      "id": "task-2",
+      "priority": "medium",
+      "subtasks": [
+        {
+          "completed": true,
+          "id": "sub-2-1",
+          "text": "Thiết kế database schema"
+        },
+        {
+          "completed": true,
+          "id": "sub-2-2",
+          "text": "Tạo router NodeJS"
+        }
+      ],
+      "title": "Cài đặt cơ sở dữ liệu & API Gateway"
+    },
+    {
+      "category": "Frontend",
+      "columnId": "done",
+      "createdAt": "2026-06-17T04:53:55.464Z",
+      "description": "Sắp xếp giao diện cột hiển thị, hỗ trợ xem danh sách công việc trực quan.",
+      "id": "task-3",
+      "priority": "high",
+      "subtasks": [
+        {
+          "completed": true,
+          "id": "sub-3-1",
+          "text": "Khởi tạo dự án Vite"
+        },
+        {
+          "completed": true,
+          "id": "sub-3-2",
+          "text": "Cài đặt Tailwind CSS"
+        }
+      ],
+      "title": "Tạo cấu trúc layout Kanban bằng React"
+    },
+    {
+      "category": "Frontend",
+      "columnId": "todo",
+      "createdAt": "2026-06-17T04:55:46.259Z",
+      "description": "Được khởi tạo nhanh từ đề xuất chatbot AI",
+      "id": "task-ai-1781672146259",
+      "priority": "medium",
+      "subtasks": [],
+      "title": "Tôi muốn   'Tối ưu cơ sở dữ liệu Postgres' độ ưu tiên cao"
+    },
+    {
+      "category": "Personal",
+      "columnId": "todo",
+      "createdAt": "2026-06-17T05:42:11.690Z",
+      "description": "Nghỉ ngơi, thư giãn sau giờ làm việc căng thẳng để tái tạo năng lượng.",
+      "id": "task-ai-1781674931690",
+      "priority": "low",
+      "subtasks": [],
+      "title": "Đi tắm"
+    },
+    {
+      "id": "task-ai-1781676087338",
+      "title": "Tối ưu hiệu năng cơ sở dữ liệu Postgres",
+      "description": "Phân tích query, đánh chỉ mục (indexes) và tối ưu hóa các câu lệnh truy vấn phức tạp.",
+      "category": "Backend",
+      "priority": "high",
+      "subtasks": [],
+      "createdAt": "2026-06-17T06:01:27.338Z",
+      "columnId": "todo"
+    }
+  ],
+  "title": "Dự án Khởi nghiệp X"
+}
