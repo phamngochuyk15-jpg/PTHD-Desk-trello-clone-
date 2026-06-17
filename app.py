@@ -52,7 +52,7 @@ def clean_json_response(text):
 # ==========================================
 DEFAULT_BOARD = {
     "id": "default-project",
-    "title": "Dự án Khởi nghiệp X",
+    "title": "Bài Tập Nhỏ K15THO1",
     "columns": [
         { "id": "todo", "title": "Cần làm", "color": "bg-slate-100 border-slate-200 text-slate-800" },
         { "id": "in_progress", "title": "Đang làm", "color": "bg-indigo-50/70 border-indigo-100 text-indigo-900" },

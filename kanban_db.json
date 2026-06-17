@@ -25,7 +25,7 @@
   "tasks": [
     {
       "category": "Design",
-      "columnId": "todo",
+      "columnId": "in_progress",
       "createdAt": "2026-06-17T04:53:55.463Z",
       "description": "Phác thảo sơ đồ màn hình Desktop và Mobile cho trang landing page của sản phẩm.",
       "id": "task-1",
@@ -50,25 +50,25 @@
       "title": "Thiết kế wireframe & UI/UX trang chủ"
     },
     {
-      "category": "Backend",
-      "columnId": "in_progress",
+      "category": "Frontend",
+      "columnId": "done",
       "createdAt": "2026-06-17T04:53:55.464Z",
       "description": "Thiết lập database PostgreSQL và định nghĩa các API routes cơ bản cho ứng dụng quản lý.",
       "id": "task-2",
-      "priority": "medium",
+      "priority": "high",
       "subtasks": [
         {
-          "completed": true,
-          "id": "sub-2-1",
-          "text": "Thiết kế database schema"
+          "id": "sub-1781689205818y4dq",
+          "text": "Học templates",
+          "completed": true
         },
         {
-          "completed": true,
-          "id": "sub-2-2",
-          "text": "Tạo router NodeJS"
+          "id": "sub-1781689215439p47l",
+          "text": "xây dựng các components",
+          "completed": true
         }
       ],
-      "title": "Cài đặt cơ sở dữ liệu & API Gateway"
+      "title": "Xây dựng giao diện Tailwind CSS Open source"
     },
     {
       "category": "Frontend",
@@ -80,45 +80,56 @@
       "subtasks": [
         {
           "completed": true,
-          "id": "sub-3-1",
-          "text": "Khởi tạo dự án Vite"
-        },
-        {
-          "completed": true,
           "id": "sub-3-2",
           "text": "Cài đặt Tailwind CSS"
+        },
+        {
+          "id": "sub-1781689075119n80z",
+          "text": "Thu thập open source",
+          "completed": true
         }
       ],
-      "title": "Tạo cấu trúc layout Kanban bằng React"
+      "title": "Tạo cấu trúc layout Kanban Board"
     },
     {
-      "category": "Frontend",
-      "columnId": "todo",
-      "createdAt": "2026-06-17T04:55:46.259Z",
-      "description": "Được khởi tạo nhanh từ đề xuất chatbot AI",
-      "id": "task-ai-1781672146259",
-      "priority": "medium",
-      "subtasks": [],
-      "title": "Tôi muốn   'Tối ưu cơ sở dữ liệu Postgres' độ ưu tiên cao"
-    },
-    {
-      "category": "Personal",
-      "columnId": "todo",
-      "createdAt": "2026-06-17T05:42:11.690Z",
-      "description": "Nghỉ ngơi, thư giãn sau giờ làm việc căng thẳng để tái tạo năng lượng.",
-      "id": "task-ai-1781674931690",
-      "priority": "low",
-      "subtasks": [],
-      "title": "Đi tắm"
-    },
-    {
-      "id": "task-ai-1781676087338",
-      "title": "Tối ưu hiệu năng cơ sở dữ liệu Postgres",
-      "description": "Phân tích query, đánh chỉ mục (indexes) và tối ưu hóa các câu lệnh truy vấn phức tạp.",
       "category": "Backend",
+      "columnId": "todo",
+      "createdAt": "2026-06-17T06:01:27.338Z",
+      "description": "Phân tích query, đánh chỉ mục (indexes) và tối ưu hóa các câu lệnh truy vấn phức tạp.",
+      "id": "task-ai-1781676087338",
       "priority": "high",
       "subtasks": [],
-      "createdAt": "2026-06-17T06:01:27.338Z",
+      "title": "Tối ưu hiệu năng cơ sở dữ liệu Postgres"
+    },
+    {
+      "id": "task-1781689344168",
+      "title": "Mixed Code by AI",
+      "description": "dùng AI để mix code từ nhiều nguồn",
+      "category": "Backend",
+      "priority": "medium",
+      "subtasks": [
+        {
+          "id": "sub-1781689329623ulqx",
+          "text": "Thêm templates Tailwind",
+          "completed": true
+        },
+        {
+          "id": "sub-178168934210352x0",
+          "text": "Thêm Kanban Board",
+          "completed": true
+        }
+      ],
+      "createdAt": "2026-06-17T09:42:24.168Z",
+      "columnId": "review"
+    },
+    {
+      "id": "task-1781689391487",
+      "title": "Update tính năng",
+      "description": "cần nâng cấp thêm tính năng cho \"Bài tập lớn\"",
+      "category": "Fullstack",
+      "priority": "high",
+      "subtasks": [],
+      "createdAt": "2026-06-17T09:43:11.487Z",
       "columnId": "todo"
     }
   ],

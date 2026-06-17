@@ -14,3 +14,21 @@ Dự án xây dựng ứng dụng quản lý công việc (Kanban Board) trực 
 Đảm bảo máy tính đã được cài đặt Python. Mở Terminal tại thư mục gốc của dự án và chạy lệnh sau để nạp các gói phụ thuộc:
 ```bash
 pip install -r requirements.txt
+```
+
+**Bước 2: Cấu hình Khóa API (Môi trường)**
+Dự án yêu cầu khóa API của Google Gemini để kích hoạt các tính năng thông minh.
+Mở file .env tại thư mục gốc.
+Khai báo khóa API theo cú pháp sau:
+GEMINI_API_KEY="điền_khóa_api_của_bạn_vào_đây"
+
+**Bước 3: Khởi động Máy chủ**
+Kích hoạt máy chủ Flask bằng lệnh:
+
+```Bash
+python app.py
+```
+
+**Bước 4: Sử dụng Ứng dụng**
+Mở trình duyệt web và truy cập vào địa chỉ: http://localhost:3000
+
